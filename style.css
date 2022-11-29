@@ -1,0 +1,320 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow-x:hidden ;
+}
+li, a{
+	list-style: none;
+	text-decoration: none;
+}
+.brand p, .about-content p, .fetaure-content p, .project-content p, .pricing-content p, .packages p, .copyright p{
+	font-size: 18px;
+	font-family: "Roboto", sans-serif;
+	margin-bottom: 15px;
+	color: #7977a2;
+}
+.about h1, .fetaure-content h1, .project-content h1, .pricing-content h1{
+	font-size: 46px;
+	font-family: "josefin sans", sans-serif;
+	color: #423f8d;
+	font-weight: 700;
+	margin-bottom: 40px;
+}
+/* Navbar Css */
+.navbar a{
+	font-size:16px ;
+	font-family: "Josefin sans", sans-serif;
+	font-weight: 700;
+	color: #423f8d;
+	padding:39px 2px;
+}
+.navbar a:hover{
+	color:#ff5700 ;
+}
+
+.btnElm {
+    font-size: 17px;
+    font-family: "Josefin sans", sans-serif;
+    font-weight: 700;
+    padding: 13px 35px;
+    color: #ffffff;
+    background-color: #ff5800;
+    border-radius: 30px;
+}
+/* Navbar Css  */
+
+/*Hero section Css*/
+.explore{
+	padding-left: 120px;
+	position: relative;
+}
+.expBtn{
+	font-size: 16px;
+	font-family: "Roboto", sans-serif;
+	padding: 18px 52px;
+	background-color: #ff5800;
+	color: #ffffff;
+	font-weight: 600;
+	width: 191px;
+    border-radius: 30px;
+    letter-spacing: 1px;
+}
+.content{
+	position:absolute;
+	padding-top: 100px;
+}
+.content h1{
+/*	position: absolute;*/
+	font-size: 60px;
+	font-family:"Josefin Sans", sans-serif;
+	color: #423f8d;
+	margin: 0px 0px 31px;
+	font-weight: 700;
+}
+
+.content p{
+	font-size: 20px;
+	font-family:"Roboto", sans-serif;
+	margin: 0px 0px 45px;
+	padding:0px 80px 0px 0px;
+	color: #423f8d;
+	letter-spacing: 1px;
+}
+/* Hero Section Css */
+
+/* Brand Section Css */
+.brand{
+	padding-top: 120px;
+	padding-bottom: 100px;
+}
+.brand h2{
+	font-size: 30px;
+	font-family: "Josefin sans", sans-serif;
+	color: #423f8d;
+	margin-bottom: 22px;
+	font-weight:700;
+}
+
+.brand-content{
+	padding-bottom: 70px;
+}
+img.w-20.brand-icon {
+    padding-right: 100px;
+}
+/* Brand Section Css  */
+
+
+/* About Section Css */
+.about{
+	padding-top:80px;
+}
+.about-content{
+	margin-left: 100px;
+}
+
+.about-content p{
+	margin-bottom: 50px;
+}
+/* About Section Css  */
+
+/* Feature Section Css  */
+.fetaure{
+	padding-top:220px ;
+	padding-bottom:120px ;
+}
+.fetaure-content{
+	padding-bottom: 20px;
+}
+.card{
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	padding: 34px 37px 15px 92px;
+	margin: 20px;
+	border: none;
+}
+.round{
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	background-color: orange;
+}
+.feature-box h2{
+	font-size: 25px;
+	font-weight: 700;
+	font-family: "Josefin sans", sans-serif;
+	margin-bottom:14px;
+	color: #423f8d ;
+}
+.feature-box p{
+	font-size: 16px;
+	font-family: "Roboto", sans-serif;
+	margin-bottom: 30px;
+	color: #7977a2;
+}
+/* Feature Section Css  */
+
+/* Project Section Css  */
+.project{
+	padding-top: 120px;
+	padding-bottom: 100px;
+}
+.project-content{
+	margin-top: 50px;
+}
+.project-content p{
+	padding: 0px 80px 0px 0px;
+	margin-bottom: 47px;
+}
+/* Project Section Css  */
+
+/* Pricing Section Css  */
+.pricing{
+	justify-content: center;
+	align-items: center;
+/*	display: flex;*/
+	margin-bottom:90px;
+}
+.packages{
+	width: 370px;
+/*	height:560px;*/
+	color: #212529;
+	background-color:#fff8fe;
+	margin: 0px 0px 40px;
+	padding: 35px 40px;
+	margin:10px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.pricing-content{
+	margin-bottom: 70px;
+}
+.btn.btn-outline-dark.rounded-pill{
+	font-size: 16px;
+	font-family: "Roboto", sans-serif;
+	color: #212529;
+	margin: 0px 0px 23px;
+	padding: 4px 18px;
+	font-weight: 700;
+}
+.btn.btn-outline-dark.rounded-pill:hover{
+	color:#ffffff;
+}
+.packages h1{
+	font-size: 40px;
+	font-family: "Josefin sans", sans-serif;
+	font-weight: 700;
+	color: #ff5700;
+	margin: 0px 0px 20px;
+}
+.packages hr{
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+.priceBtn{
+	font-size: 16px;
+	font-family:"Roboto", sans-serif;
+	width: 213px;
+    padding: 14px 47px;
+    border-radius: 30px;
+	color: #ffffff;
+	background-color: #ff5800;
+	font-weight: 700;
+	margin-left: 40px;
+	margin-top: 30px;
+}
+.col-lg-12.all-packages {
+    margin-left: 80px;
+}
+/* Pricing Section Css */
+
+/* Want to work aea css  */
+.workArea{
+	position:relative;
+	text-align: center;
+}
+.work-content{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.work-bg{
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 85px;
+    padding-bottom: 114px;
+    display: block;
+}
+.work-content h1{
+	color: #ffffff;
+	font-size: 46px;
+	font-family: "josefin sans", sans-serif;
+	font-weight: 700;
+	text-align: left;
+	margin-bottom: 30px;
+}
+.work-content p{
+	font-size: 18px;
+	font-family: "Roboto", sans-serif;
+	text-align: left;
+	color: #ffffff;
+	font-weight: 400;
+}
+
+.btn.btn-outline-light.rounded-pill {
+    width: 180px;
+    font-weight: 600;
+    padding: 18px;
+    margin-top: 38px;
+}
+/* Want to wrok area css  */
+
+/* Footer Css */
+.footer{
+	margin-bottom: 100px;
+}
+.footer h2{
+	color:#212529;
+	font-size: 16px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 600;
+}
+.row.icons {
+    display: block;
+}
+i.fa-brands{
+    display: inline;
+    padding: 9px;
+    color: #ff5700;
+}
+.footer-content img{
+	margin-bottom: 40px;
+}
+.footer-content p{
+	font-size: 16px;
+	font-family: "Roboto", sans-serif;
+	margin-bottom: 30px;
+	color: #7977a2;
+}
+.footerElm{
+	padding: 0px 15px;
+}
+.footerElm a{
+	font-size:16px;
+	font-family: "Roboto", sans-serif;
+	margin: 0px 0px 30px ;
+	color: #7977a2;
+	text-align:left;
+}
+.icons{
+	overflow-y:hidden;
+}
+.scrollBar{
+	overflow-y: hidden;
+}
+.icons i{
+	font-size: 25px;
+}
+.footer ul{
+	padding-left: 0px;
+}
+/* Footer Css */
